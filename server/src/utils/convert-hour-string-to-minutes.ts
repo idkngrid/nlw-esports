@@ -1,3 +1,5 @@
+// 18:00 => ["18", "00"] => [18, 88]
+
 export function convertHourStringToMinutes(hourString: string) {
     const [hours, minutes] = hourString.split(':').map(Number);
 
